@@ -1,0 +1,2 @@
+pip install -r requirements.txt
+nohup authbind --deep uvicorn main:app --workers 4 --host 0.0.0.0 --port 443 --ssl-keyfile /path/to/ssl.privkey.pem --ssl-certfile /path/to/ssl.fullchain.pem > app.out 2> app.log &
