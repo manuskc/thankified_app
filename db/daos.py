@@ -1,6 +1,6 @@
 from sqlalchemy import select, update, func, and_
 from .db import Session
-from .schemas import MessageTable, InstallationInfoTable
+from .schemas import MessageTable
 from commons import Logger as LOG
 from datetime import timedelta, datetime
 
