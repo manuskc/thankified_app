@@ -1,8 +1,6 @@
 
 # Thankified
-
 ![thankified](./resource/logo.png)
-
 Enhance Teamwork and Recognition with Thankified today. Join us in making your workplace more appreciative and productive
 
 

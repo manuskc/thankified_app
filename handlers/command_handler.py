@@ -4,7 +4,6 @@ from slack_sdk.web.async_client import AsyncWebClient
 from slack_sdk.models.blocks import PlainTextObject
 
 from db import MessageDAO
-from db.daos import InstallationInfoDAO
 from models import Awards
 
 class ThanksCommandHandler(object):
